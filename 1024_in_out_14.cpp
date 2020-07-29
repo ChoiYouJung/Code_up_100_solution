@@ -1,0 +1,17 @@
+#if 0
+#pragma warning(disable:4996)
+#include<cstdio>
+
+int main()
+{
+	char data[21];
+
+	scanf("%s",data);
+
+	for (int i = 0; data[i] != '\0'; i++)
+	{
+		printf("\'%c\'\n", data[i]);
+	}
+}
+
+#endif
